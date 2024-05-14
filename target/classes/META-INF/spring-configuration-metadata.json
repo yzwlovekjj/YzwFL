@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "fl",
+      "type": "com.yzw.FL.Common.FLConfig",
+      "sourceType": "com.yzw.FL.Common.FLConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "fl.number",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yzw.FL.Common.FLConfig"
+    },
+    {
+      "name": "fl.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.yzw.FL.Common.FLConfig"
+    },
+    {
+      "name": "fl.type",
+      "type": "java.lang.String",
+      "sourceType": "com.yzw.FL.Common.FLConfig"
+    }
+  ],
+  "hints": []
+}

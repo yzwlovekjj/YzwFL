@@ -1,0 +1,4 @@
+fl:
+  type: server # server->联邦学习服务端； client->联邦学习客户端
+  port: 5181 # 端口号
+  number: 2 # 若为联邦学习服务端，number->客户端数量；否则取任意值
