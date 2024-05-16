@@ -52,7 +52,6 @@ public class ZkServiceRegister implements ServiceRegister{
     public InetSocketAddress serviceDiscovery(String serviceName) {
         try {
             List<String> strings = client.getChildren().forPath("/" + serviceName);
-            // 这里默认用的第一个，后面加负载均衡
             String string = strings.get(0);
             return parseAddress(string);
         } catch (Exception e) {
